@@ -1,50 +1,44 @@
 # INTENT.md: one-page product brief
 
-Keep it to one page. Write it first, then update it when testing changes your mind.
-
-**Product:** [Name] · **Team:** [Names] · **Product Page:** [Link]
+**Product:** [Product name] · **Team:** [Names] · **Product Page:** [Link]
 
 ## 1. Who is it for?
 
-*A real person or group you can put the prototype in front of before December 8. Not "students" or "busy professionals."*
-
-- **The person:**
-- **How you'll reach them to test:**
+- **The person:** Dance team leaders and choreographers who plan or edit formations for performances, including adapting formations when dancers are missing.
+- **How you'll reach them to test:** Use NYU dance club captains as an initial recruiting channel; invite captains to recruit choreographers for early demos and testing.
 
 ## 2. Their workflow today, and with your product
 
-- **Today (before):**
-- **With your product (after):**
+- **Today (before):** Choreographers spend hours manually dragging 15–25 dancer dots in ArrangeUs when revising formations or adjusting for missing dancers.
+- **With your product (after):** Choreographers use an AI-assisted stage-blocking web app to edit a formation, see suggested adjustments and visual geometry flags, then review and make each change on the stage canvas.
 
 ## 3. Your core claim
 
-*One sentence a tester could prove wrong.*
+Choreographers can revise a formation or adapt it for missing dancers faster than manually repositioning 15–25 dots, while seeing geometry issues before approving edits.
 
 ## 4. Why not just use a plain AI chat?
 
-*What your product does that pasting the problem into ChatGPT, Claude or Gemini does not.*
+The app represents dancers as positions on a stage and shows proposed changes directly on a canvas. Deterministic geometry checks—not the LLM—flag stage-boundary, minimum-spacing, and sprint-distance issues, making the result inspectable rather than relying on chat output alone.
 
 ## 5. Where a person checks the AI
 
-*The step where a person reviews or approves before anything is sent, spent, saved or published.*
+The choreographer reviews every proposed change on the canvas and must personally drag or approve each edit; no edit is applied automatically.
 
 ## 6. What one run costs
 
-*Run it ten times and divide. In your cube, compare the "On me" credit before and after.*
-
-- **Cost per run:** `$`
-- **How you measured it:**
+- **Cost per run:** Approximately `$0.001` (estimate)
+- **How you measured it:** Planning estimate; validate against actual provider usage and pricing.
 
 ## 7. Your first 50 users
 
-*Where they are, and how you'd reach them.*
+Start with NYU dance club captains: invite captains to try the app, recruit choreographers from their teams for early tests, and use captain referrals to reach the first 50 users.
 
 ## 8. Not building (yet)
 
--
--
--
+- Automatic approval or application of formation edits.
+- Replacing the choreographer's judgment with AI.
+- [Other out-of-scope work]
 
 ## 9. Riskiest assumption
 
-*The one thing that sinks the product if it's wrong. Test it first.*
+Choreographers will trust and prefer canvas-based suggestions with visible geometry flags over manually adjusting formations in ArrangeUs. Test this with dance team leaders and choreographers recruited through NYU dance club captains.
